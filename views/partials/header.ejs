@@ -1,0 +1,33 @@
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '183536548665799',
+      xfbml      : true,
+      version    : 'v2.5'
+    });
+  };
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+<div class="navbar navbar-fixed-top navbar-inverse">
+	<div class="container">
+		<div class="navbar-header">
+			<a href="/" class="navbar-brand">
+				<i class='fa fa-paw'></i>
+				iLoveDogWalks
+			</a>
+		</div>
+		<ul class="nav navbar-nav navbar-right">
+			<li><a href="/">Home</a></li>
+			<li><a href="/about">About</a></li>
+			<li><a href="/prices">Prices</a></li>
+			<li><a href="/contact">Contact</a></li>
+		</ul>
+	</div>
+</div>
