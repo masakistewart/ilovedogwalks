@@ -1,10 +1,17 @@
 body {
-	background: url('https://static.pexels.com/photos/621/nature-field-summer-agriculture.jpg');
-	background-size: cover;
+	background: url('soft_circle_scales.png') repeat;
 	background-attachment: fixed;
-
+	height: 100%;
+	width: 100%;
+}
+.smally {
+	font-size: 18px;
 }
 
+#shorten {
+	height: 230px;
+	width: 230px;
+}
 .jumbotron p {
 	font-size: 22px;
 }
@@ -16,13 +23,11 @@ body {
 #profilePic {
 	height: 250px;
 	width: 100%;
-	border: 4px solid gray;
-	box-shadow: 0px 0px 15px black;
 }
-h2 {
+/*h2 {
 	margin-top: .01%;
 	padding-bottom: 1%;
-}
+}*/
 
 .partition.main{
 	margin-top: 5%;
@@ -60,5 +65,11 @@ iframe {
 .partition {
 	width: 100%;
 	height: 50px;
+	background: #00898e;
+}
+.block {
+	margin-top: 0;
+	height: 150px;
+	width: 100%;
 	background: #00898e;
 }
