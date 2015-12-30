@@ -22,7 +22,9 @@ body {
 
 #profilePic {
 	height: 250px;
-	width: 100%;
+	margin-left: 10%;
+	margin-bottom: 10%;
+
 }
 /*h2 {
 	margin-top: .01%;

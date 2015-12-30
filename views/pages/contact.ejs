@@ -6,31 +6,27 @@
 <body>
 <% include ../partials/header %>
 
-
-
 <div class="container">
 	<div class="jumbotron">
-		<div style="width: 200px; margin-right: 10%;">
-			<div class="text-center"><p>Based in North Finchley N12 we cover:</p>
-				<br>
-				<p>East Finchley N2</p>
-				<p>Finchley Central N3</p>
-				<p>North Finchley N12</p>
-				<p>Woodside Park N12</p>
-				<p>Totteridge N20</p>
-				<p>Whetstone N20</p>
-				<p>Friern Barnet N11</p>
-				<p>Muswell Hill N10</p>
-				<p>Mill Hill East NW7 & And all inbetween!</p>
-
-				<p>Spoilt for choice to where we can go. Brook Farm Open Space,</p><p> Darland's Lake Nature Reserve, Hampstead Heath and Highgate Woods, just to name a few...</p><p> London is such a great place to own a dog!</p>
-			</div>
+		<div class="row">
+		<h1 class="page-header">For Inquiries</h1>
+		<form class="form" action="/contact" method="POST">
+			<label for="name">Name:</label>
+			<input type="text" name="name" class="form-control">
+			<label for="email">Email:</label>
+			<input type="email" name="email" class="form-control">
+			<label for="message">Message:</label>
+			<textarea name="message" class="form-control" cols="40" rows="10"></textarea>
+			<input type="sumbit" class="form-control btn btn-success" value="Send">
+		</form>
 		</div>
-		<iframe width="400" height="450" frameborder="0" style="float: right;"
-	src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJx_FvA-IZdkgRzce1x-tA2Dc&key=AIzaSyBAbx-I6MUz8mqe4OauNjlkmmVpbYZkHl4" ></iframe>
 	</div>
 </div>
 
-<% include ../partials/footer %>
+<div class="navbar navbar-fixed-bottom navbar-inverse">
+	<div class="navbar-text">
+		<p>CreatedBy: CairoStewart</p>
+	</div>
+</div>
 </body>
 </html>
