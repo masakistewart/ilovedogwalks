@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<% include ../partials/head %>
+</head>
+<body>
+<% include ../partials/header %>
+
+<div class="container">
+	<div class="jumbotron">
+		<div class="row">
+		<h1 class="page-header">For Inquiries</h1>
+			<form action="/email" method="POST">
+				<label for="name">Name:</label>
+				<input type="text" name="name" class="form-control">
+				<label for="email">Email:</label>
+				<input type="email" name="email" class="form-control">
+				<label for="message">Message:</label>
+				<textarea name="message" class="form-control" cols="40" rows="10"></textarea>
+				<button type="sumbit" class="form-control btn btn-success">Send</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div class="navbar navbar-fixed-bottom navbar-inverse">
+	<div class="navbar-text">
+		<p>CreatedBy: CairoStewart</p>
+	</div>
+</div>
+</body>
+</html>
