@@ -29,7 +29,7 @@ router.post('/email',function(req,res) {
 	  service: 'gmail',
 	  auth: {
 	    user: 'ilovedogwalksinfo@gmail.com',
-	    pass: 'MyWorkPassword123'
+	    pass: 'somegenericpassword'
 	  }
 	}, {
 	// default values for sendMail method
