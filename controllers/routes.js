@@ -28,11 +28,11 @@ router.post('/email',function(req,res) {
 	var transporter = nodemailer.createTransport({
 	  service: 'gmail',
 	  auth: {
-	    user: 'infoilovedogwalks@gmail.com',
-	    pass: 'TotoTigger1982'
+	    user: 'ilovedogwalksinfo@gmail.com',
+	    pass: 'MyWorkPassword123'
 	  }
 	}, {
-	// default values for sendMail method 
+	// default values for sendMail method
 	from: req.body.email,
 	headers: {
 	    'My-Awesome-Header': '123'

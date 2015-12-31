@@ -1,9 +1,40 @@
 body {
-	background: url('soft_circle_scales.png') repeat;
 	background-attachment: fixed;
 	height: 100%;
 	width: 100%;
+	font-size: 16px;
 }
+
+/*color changes here */
+
+.navbar {
+	border-radius: 0;
+	margin-bottom: 0;
+	border: none;
+	/*background: #00898e;*/
+	background: #00898E;
+}
+
+.partition {
+	width: 100%;
+	height: 50px;
+	background: #00898E;
+	border-radius: 5px;
+	/*background: #e65212;*/
+}
+
+a {
+	color: white;
+}
+
+a i {
+	color: black;
+}
+
+a:hover {
+	color: #e6525f;
+}
+
 .smally {
 	font-size: 18px;
 }
@@ -13,8 +44,13 @@ body {
 	width: 230px;
 }
 .jumbotron p {
-	font-size: 22px;
+	font-size: 1.25555551em;
 }
+
+#mainPageHeader {
+	margin-top: .1%;
+}
+
 .jumbotron h1 {
 	padding-left: 20px;
 	padding-right: 20px;
@@ -22,7 +58,7 @@ body {
 
 #profilePic {
 	height: 250px;
-	margin-left: 10%;
+	margin-left: 1%;
 	margin-bottom: 10%;
 
 }
@@ -40,14 +76,11 @@ body {
 iframe {
 	margin-top: 5%;
 }
-.navbar {
-	border-radius: 0;
-	margin-bottom: 0;
-	background: #00898e;
-}
+
 #myCarousel {
 	margin-left: auto;
 	margin-right: auto;
+	border-radius: 5px;
 }
 
 #carouselImage {
@@ -58,17 +91,13 @@ iframe {
 .jumbotron {
 	margin-top: 0;
 	margin-bottom: 0;
+	border-radius: 0;
 }
 
 .jumbotron.last-child {
 	margin-bottom: 6%;
 }
 
-.partition {
-	width: 100%;
-	height: 50px;
-	background: #00898e;
-}
 .block {
 	margin-top: 0;
 	height: 150px;
