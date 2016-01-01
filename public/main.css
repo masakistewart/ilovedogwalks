@@ -25,6 +25,11 @@ body {
 	background: #00898E;
 }
 
+.partition-thin {
+	width: 100%;
+	height: 45px;
+}
+
 .partition.main{
 	margin-top: 5%;
 	height: 1000px;
@@ -39,12 +44,16 @@ body {
 	border-radius: 0;
 }
 
+.jumbotron:first-child {
+	margin-top: 5%;
+}
+
 .jumbotron.no-border-radius {
 	border-radius: 0;
 }
 
-.jumbotron.last-child {
-	margin-bottom: 6%;
+.jumbotron:last-child {
+	margin-bottom: 8%;
 }
 
 .jumbotron h1 {
@@ -70,8 +79,16 @@ a:hover {
 	color: #e6525f;
 }
 
+#review-button {
+	margin-top: 9%;
+}
+
 .smally {
 	font-size: 18px;
+}
+
+.smaller {
+	font-size: 14px;
 }
 
 #shorten {
@@ -102,8 +119,28 @@ a:hover {
 	width: 100%;
 }
 
+/* form */
+
+#textarea {
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+#button {
+	border-top-right-radius: 0;
+	border-top-left-radius: 0;
+}
+
 iframe {
 	margin-top: 5%;
+}
+
+.fluffy-bunny {
+	color: rgba(255,255,255, .5);
+}
+
+.navbar-text.navbar-texty {
+	color: white;
 }
 
 .block {

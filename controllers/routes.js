@@ -2,6 +2,7 @@ var express = require('express'),
 router = express.Router(),
 nodemailer = require('nodemailer');
 var smtTrans, mailOpts;
+var reviewss = require('../public/reviews.js');
 
 router.get('/',function(req,res) { 
   res.render('pages/index')
@@ -21,6 +22,10 @@ router.get('/contact',function(req,res) {
 
 router.get('/email',function(req,res) { 
   res.render('pages/email');
+ });
+
+router.get('/reviews',function(req,res) {
+  res.render('pages/reviews', {reviews: reviewss});
  });
 
 router.post('/email',function(req,res) { 

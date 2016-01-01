@@ -3,7 +3,7 @@
 <head>
 	<% include ../partials/head %>
 </head>
-<body>
+<body id="background">
 <% include ../partials/header %>
 
 <div class="container">
@@ -14,8 +14,8 @@
 				<label for="email">Email:</label>
 				<input type="email" name="email" class="form-control">
 				<label for="message">Message:</label>
-				<textarea name="message" class="form-control" cols="40" rows="10"></textarea>
-				<button type="sumbit" class="form-control btn btn-success">Send</button>
+				<textarea name="message" id="textarea" class="form-control" cols="40" rows="10"></textarea>
+				<button id="button" type="sumbit" class="form-control btn btn-success">Send</button>
 			</form>
 		</div>
 	</div>
