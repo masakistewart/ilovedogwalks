@@ -26,7 +26,7 @@ router.get('/email',function(req,res) {
 router.post('/email',function(req,res) { 
 
 	var transporter = nodemailer.createTransport({
-	  service: 'hotmail',
+	  service: 'Hotmail',
 	  auth: {
 	    user: 'ilovedogwalks@hotmail.com',
 	    pass: 'MyWorkPassword123'
@@ -43,8 +43,10 @@ router.post('/email',function(req,res) {
 	    to: 'ilovedogwalks@hotmail.com',
 	    subject: 'Work Email!!!',
 	    text: req.body.message
+	}).catch(function(err) {
+		console.log(err)
 	});
-  res.redirect('/contact');
+  res.redirect('/prices');
  })
 
 module.exports = router;
