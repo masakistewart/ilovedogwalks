@@ -131,6 +131,28 @@ a:hover {
 	border-top-left-radius: 0;
 }
 
+/* the header colors */
+
+.navbar-brand {
+	font-size: 1.8em;
+}
+
+.blue {
+	color:blue;
+}
+
+.purple {
+	color: purple;
+}
+
+.red {
+	color: red;
+}
+
+.orange {
+	color: #e65212;
+}
+
 iframe {
 	margin-top: 5%;
 }
