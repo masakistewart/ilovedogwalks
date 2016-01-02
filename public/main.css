@@ -172,6 +172,10 @@ iframe {
 	background: #00898e;
 }
 
+#logo {
+	width: 150px;
+}
+
 
 @media only screen and (max-device-width: 480px) {
 	.container {
