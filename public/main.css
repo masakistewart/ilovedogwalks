@@ -177,4 +177,8 @@ iframe {
 	.container {
 		width:100%;
 	}
+
+	button {
+		font-size: 2em;
+	}
 }
