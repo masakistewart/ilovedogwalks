@@ -6,7 +6,7 @@
 	<body id="background">
 	<% include ../partials/header %>
 
-	<div class="container-fluid">
+	<div class="container">
 		<div class="jumbotron">
 			<h1 class="page-header">Reviews<small class="smally"> Contact: 07971060362 | info@ilovedogwalks.co.uk</small></h1>
 		</div>
@@ -20,7 +20,7 @@
 				<div class="col-md-9">
 					<blockquote>
 						<p class="fluffy-bunny"><%= review.body %></p>
-						<footer class="text-success">Happy Customer: <cite title="Source Title"> <%= review.name %></cite></footer>
+						<footer class="text-success">Happy Customer: <cite title="Source Title"><%= review.name %></cite></footer>
 					</blockquote>
 				</div>
 			</div>
