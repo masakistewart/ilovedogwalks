@@ -2,6 +2,7 @@ body {
 	height: 100%;
 	width: 100%;
 	font-size: 16px;
+	background: #4E5D6C;
 }
 
 /*color changes here */
@@ -37,10 +38,7 @@ body {
 	margin-top: 0;
 	margin-bottom: 0;
 	border-radius: 0;
-}
-
-.jumbotron:first-child {
-	margin-top: 5%;
+	background: #2B3E50;
 }
 
 .jumbotron.no-border-radius {
@@ -64,6 +62,10 @@ body {
 
 a {
 	color: #00898E;
+}
+
+#float-right {
+	float: right;
 }
 
 a i {
