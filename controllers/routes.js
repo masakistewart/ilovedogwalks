@@ -3,9 +3,9 @@ router = express.Router(),
 nodemailer = require('nodemailer');
 var smtTrans, mailOpts;
 var reviewss = require('../public/reviews.js'),
-var sm = require('sitemap');
+sm = require('sitemap');
 
-var sitemap = sm.createSiteMap ({
+var sitemap = sm.createSitemap ({
 	hostname: 'http://www.ilovedogwalks.co.uk',
 	cacheTime: 600000,
 	urls: [
