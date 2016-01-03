@@ -14,10 +14,7 @@
 		<% reviews.forEach(function(review) { %>
 		<div class="jumbotron">
 			<div class="row">
-				<div class="col-md-3">
-					<img class="img-thumbnail" src="<%= review.img %>">
-				</div>
-				<div class="col-md-9">
+				<div class="col-md-12">
 					<blockquote>
 						<p class="fluffy-bunny"><%= review.body %></p>
 						<footer class="text-success">Happy Customer: <cite title="Source Title"><%= review.name %></cite></footer>

@@ -91,9 +91,9 @@ a:hover {
 	font-size: 14px;
 }
 
-#shorten {
+.shorten {
 	height: 230px;
-	width: 230px;
+	width: 100%;
 }
 
 #mainPageHeader {
@@ -185,5 +185,9 @@ iframe {
 	.btn {
 		font-size: 1.5em;
 		padding: 1%;
+	}
+
+	.navbar {
+		height: 150px;
 	}
 }
