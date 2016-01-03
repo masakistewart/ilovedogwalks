@@ -190,8 +190,9 @@ iframe {
 	.navbar {
 		padding-top: 75px;
 		padding-bottom: 75px;
-		body {
+	}
+
+	body {
 			padding: 155px;
-		}
 	}
 }
