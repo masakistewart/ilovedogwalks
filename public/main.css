@@ -6,8 +6,7 @@ body {
 }
 
 #background {
-	background: black;
-	background-attachment: fixed;
+	background-color: black;
 }
 
 /*color changes here */
