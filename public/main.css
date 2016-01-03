@@ -179,7 +179,9 @@ iframe {
 
 @media only screen and (max-device-width: 480px) {
 	.container {
-		width:100%;
+		width: 100%;
+		padding: 0;
+		margin: 0;
 	}
 
 	.btn {
