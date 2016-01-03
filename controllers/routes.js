@@ -76,7 +76,7 @@ router.post('/email',function(req,res) {
 	}).catch(function(err) {
 		console.log(err)
 	});
-  res.redirect('/prices');
+  	res.redirect('/prices');
  })
 
 module.exports = router;
