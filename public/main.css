@@ -180,7 +180,8 @@ iframe {
 @media only screen and (max-device-width: 480px) {
 	.container {
 		width: 100%;
-		padding: 0;
+		padding-left: 5px;
+		padding-right: 5px;
 		margin: 0;
 	}
 
