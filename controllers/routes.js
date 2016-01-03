@@ -29,7 +29,7 @@ router.get('/sitemap.xml', function(req, res) {
 });
 
 router.get('/google6092e02383ea4ca4.html',function(req,res) { 
-  res.sendFile('/google6092e02383ea4ca4.html')
+  res.sendFile(__dirname + '/google6092e02383ea4ca4.html')
  });
 
 
