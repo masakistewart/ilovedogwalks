@@ -41,6 +41,8 @@ body {
 	background: #2B3E50;
 }
 
+
+
 .jumbotron.no-border-radius {
 	border-radius: 0;
 }
@@ -110,6 +112,7 @@ img.thumbnail-img {
 	margin-right: auto;
 	border-radius: 5px;
 	margin-top: 0%;
+	height: 400px;
 }
 
 #carouselImage {

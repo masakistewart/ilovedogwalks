@@ -66,7 +66,6 @@ var transporter = nodemailer.createTransport({
     pass: 'MyWorkPassword123'
   }
 }, {
-// default values for sendMail method 
 from: req.body.email,
 headers: {
     'My-Awesome-Header': '123'
