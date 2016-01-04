@@ -88,9 +88,10 @@ a:hover {
 	font-size: 14px;
 }
 
-.shorten {
-	height: 230px;
+img.thumbnail-img {
+	height: 300px;
 	width: 100%;
+
 }
 
 #mainPageHeader {
