@@ -183,6 +183,12 @@ iframe {
 		margin: 0;
 	}
 
+	img.thumbnail-img {
+	height: 600px;
+	width: 100%;
+
+}
+
 	.btn {
 		font-size: 1.5em;
 		padding: 1%;
