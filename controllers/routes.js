@@ -59,19 +59,19 @@ router.get('/reviews',function(req,res) {
 
 router.post('/email',function(req,res) { 
 
-	var transporter = nodemailer.createTransport({
-	  service: 'Hotmail',
-	  auth: {
-	    user: 'ilovedogwalks@hotmail.com',
-	    pass: 'MyWorkPassword123'
-	  }
-	}, {
-	// default values for sendMail method 
-	from: req.body.email,
-	headers: {
-	    'My-Awesome-Header': '123'
-	}
-	});
+var transporter = nodemailer.createTransport({
+  service: 'Hotmail',
+  auth: {
+    user: 'ilovedogwalks@hotmail.com',
+    pass: 'MyWorkPassword123'
+  }
+}, {
+// default values for sendMail method 
+from: req.body.email,
+headers: {
+    'My-Awesome-Header': '123'
+}
+});
 
 	transporter.sendMail({
 	    to: 'ilovedogwalks@hotmail.com',
