@@ -120,6 +120,10 @@ img.thumbnail-img {
 	width: 100%;
 }
 
+img.carouselImage {
+	height: 400px;
+}
+
 /* form */
 
 #textarea {
