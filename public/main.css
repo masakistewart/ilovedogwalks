@@ -11,7 +11,7 @@ body {
 }
 
 .nav-footer {
-	margin-left: 20%;
+	margin-left: 30%;
 }
 
 .nav-footer > li {
@@ -64,6 +64,7 @@ address {
 
 .thumbnail {
 	width: 370px;
+	height: 800px;
 }
 .thumbnail:first-child {
 	margin-left: 10%;
@@ -166,9 +167,11 @@ iframe {
 }
 
 .left-side {
-	margin-top: 20%;
+	margin-top: 23%;
 }
-
+.middle {
+	margin-top: 15%;
+}
 .right-side {
 	margin-top: 20%;
 }
