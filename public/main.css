@@ -181,6 +181,7 @@ iframe {
 
 
 @media only screen and (max-device-width: 480px) {
+
 	.container-fluid {
 		width: 100%;
 		margin: 0;
@@ -190,7 +191,16 @@ iframe {
 	height: 600px;
 	width: 100%;
 }
-
+	.square-index {
+		border-radius: 25px;
+		padding: 15px;
+		font-size: 1.8em;
+		color: #777777;
+		background: rgba(255, 255, 255, .99);
+		height: 300px;
+		width: 350px
+		margin-bottom: 15%;
+	}
 	img.thumbnail-img {
 	height: 600px;
 	width: 100%;
