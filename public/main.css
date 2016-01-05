@@ -187,6 +187,14 @@ iframe {
 		margin: 0;
 	}
 
+	.navbar {
+		height: 300px;
+	}
+
+	body {
+		margin-top: 200px;
+	}
+
 	#myCarousel < img.carouselImage {
 	height: 600px;
 	width: 100%;
