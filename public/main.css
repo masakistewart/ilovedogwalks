@@ -186,10 +186,6 @@ iframe {
 		margin: 0;
 	}
 
-	p {
-		font-size: 2em;
-	}
-
 	#myCarousel < img.carouselImage {
 	height: 600px;
 	width: 100%;
