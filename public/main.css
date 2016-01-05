@@ -190,7 +190,7 @@ iframe {
 		margin: 0;
 	}
 
-	#myCarousel.carouselImage {
+	#myCarousel < img.carouselImage {
 	height: 600px;
 	width: 100%;
 }
