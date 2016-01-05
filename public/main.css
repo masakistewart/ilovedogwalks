@@ -177,6 +177,10 @@ iframe {
 		margin: 0;
 	}
 
+	p {
+		font-size: 4em;
+	}
+
 	#myCarousel < img.carouselImage {
 	height: 600px;
 	width: 100%;
