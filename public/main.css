@@ -3,7 +3,19 @@ body {
 	width: 100%;
 	font-size: 16px;
 	margin-top: 60px;
-	/*background: #4E5D6C;*/
+	background: #2B3E50;
+}
+
+.reviews {
+	margin-right: 11%;
+}
+
+.nav {
+	margin-left: 40%;
+}
+
+address {
+	font-size: 1em;
 }
 
 /*color changes here */
@@ -17,7 +29,7 @@ body {
 
 .partition {
 	width: 100%;
-	height: 50px;
+	height: 15px;
 	background: #00BC8C;
 }
 
@@ -46,23 +58,18 @@ body {
 	background: #2B3E50;
 }
 
-
-
+.thumbnail {
+	width: 370px;
+}
+.thumbnail:first-child {
+	margin-left: 10%;
+}
 .jumbotron.no-border-radius {
 	border-radius: 0;
 }
 
 .jumbotron:last-child {
 	margin-bottom: 8%;
-}
-
-.jumbotron h1 {
-	padding-left: 20px;
-	padding-right: 20px;
-}
-
-.jumbotron p {
-	font-size: 1.25555551em;
 }
 
 /* a tags */
@@ -169,8 +176,6 @@ iframe {
 @media only screen and (max-device-width: 480px) {
 	.container-fluid {
 		width: 100%;
-		padding-left: 1px;
-		padding-right: 1px;
 		margin: 0;
 	}
 
