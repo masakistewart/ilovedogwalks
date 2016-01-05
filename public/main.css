@@ -11,7 +11,11 @@ body {
 }
 
 .nav-footer {
-	margin-left: 40%;
+	margin-left: 20%;
+}
+
+.nav-footer > li {
+	margin-left: 1%;
 }
 
 address {
@@ -29,7 +33,7 @@ address {
 
 .partition {
 	width: 100%;
-	height: 15px;
+	height: 300px;
 	background: #00BC8C;
 }
 
@@ -64,8 +68,22 @@ address {
 .thumbnail:first-child {
 	margin-left: 10%;
 }
+
+.square-index {
+	border-radius: 25px;
+	padding: 10px;
+	font-size: 1.8em;
+	color: #777777;
+	background: rgba(255, 255, 255, .99);
+	height: 460px;
+	margin-bottom: 15%;
+}
 .jumbotron.no-border-radius {
 	border-radius: 0;
+}
+
+#mainPageHeader {
+	font-size: 4em;
 }
 
 .jumbotron:last-child {
@@ -104,10 +122,6 @@ img.thumbnail-img {
 
 }
 
-#mainPageHeader {
-	margin-top: .1%;
-}
-
 #profilePic {
 	height: 250px;
 	margin-left: 1%;
@@ -131,22 +145,6 @@ img.thumbnail-img {
 
 .navbar-brand {
 	font-size: 1.8em;
-}
-
-.blue {
-	color:blue;
-}
-
-.purple {
-	color: purple;
-}
-
-.red {
-	color: red;
-}
-
-.orange {
-	color: #e65212;
 }
 
 iframe {
