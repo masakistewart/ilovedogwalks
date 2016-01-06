@@ -305,18 +305,13 @@ iframe
 		margin-top: 150px;
 	}
 
-	#myCarousel > img.carouselImage {
-		height: 600px;
-		width: 100%;
-	}
-
 	.square-index {
 		border-radius: 25px;
 		padding: 15px;
 		font-size: 1.8em;
 		color: #777777;
 		background: rgba(255, 255, 255, .99);
-		width: 350px;
+		width: 100%;
 		margin-bottom: 15%;
 	}
 	img.thumbnail-img {
@@ -327,6 +322,7 @@ iframe
 	.thumbnail {
 		height: 100%;
 		width: 100%;
+		margin: 0;
 		overflow: hidden;
 	}
 
