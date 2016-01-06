@@ -22,19 +22,27 @@ address {
 	font-size: 1em;
 }
 
+#myCarousel < img.carouselImage {
+		height: 600px;
+		width: 100%;
+}
+
 /*color changes here */
 
 .navbar {
 	border-radius: 0;
 	margin-bottom: 0;
-	pading: 0;
 	border: none;
+}
+
+.scroll {
+	background: rgba(0, 188, 140, .60);
 }
 
 .partition {
 	width: 100%;
-	height: 300px;
 	background: #00BC8C;
+	padding-bottom: 30px;
 }
 
 .partition-thin {
@@ -62,12 +70,23 @@ address {
 	background: #2B3E50;
 }
 
-.thumbnail {
-	width: 370px;
-	height: 800px;
+.row {
+	margin-left: auto; 
+	margin-right: auto;
 }
-.thumbnail:first-child {
-	margin-left: 10%;
+
+.thumbnail {
+	width: 90%;
+	height: 800px;
+	background: #2B3E50;
+	font-size: 1.8em;
+	overflow: scroll;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#services-offered{
+	font-size: 2em;
 }
 
 .square-index {
@@ -208,9 +227,10 @@ iframe {
 	}
 
 	#myCarousel < img.carouselImage {
-	height: 600px;
-	width: 100%;
-}
+		height: 600px;
+		width: 100%;
+	}
+
 	.square-index {
 		border-radius: 25px;
 		padding: 15px;
