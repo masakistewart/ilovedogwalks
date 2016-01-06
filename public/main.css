@@ -246,8 +246,18 @@ iframe {
 		width: 100%;
 	}
 
+	.thumbnail {
+		height: 100%;
+		width: 100%;
+		overflow: hidden;
+	}
+
 	.btn {
 		font-size: 1.5em;
 		padding: 1%;
+	}
+
+	.nav-footer {
+		margin: 0;
 	}
 }
