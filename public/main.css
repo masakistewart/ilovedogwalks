@@ -311,12 +311,12 @@ iframe
 		font-size: 1.8em;
 		color: #777777;
 		background: rgba(255, 255, 255, .99);
-		width: 100%;
+		width: 85%;
 		margin-bottom: 15%;
 	}
 	img.thumbnail-img {
 		height: 600px;
-		width: 100%;
+		width: 100;
 	}
 
 	.thumbnail {
