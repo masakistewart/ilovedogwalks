@@ -59,7 +59,7 @@ blockquote cite:before
 {
     font-size: 1.8em;
 
-    height: 25.375em;
+    height: 28.375em;
     width: 90%;
     margin-right: auto;
     margin-left: auto;
@@ -263,16 +263,11 @@ iframe
     width: 150px;
 }
 
-/*@media only screen and (max-device-width: 480px) {
+@media only screen and (max-device-width: 480px) {
 
 	.container-fluid {
 		width: 100%;
 		margin: 0;
-	}
-
-	.navbar {
-		height: 9.375em ;
-        width: 100%;
 	}
 
 	body {
@@ -285,19 +280,10 @@ iframe
     }
 
     blockquote:before
-{
-    display: none;
-}
+    {
+        display: none;
+    }
 
-	.square-index {
-		border-radius: 25px;
-		padding: 15px;
-		font-size: 1.8em;
-		color: #777777;
-		background: rgba(255, 255, 255, .99);
-		width: 85%;
-		margin-bottom: 15%;
-	}
 
 	img.thumbnail-img {
 		height: 600px;
@@ -334,4 +320,4 @@ iframe
 		margin: 0;
 		padding: 0;
 	}
-}*/
+}
