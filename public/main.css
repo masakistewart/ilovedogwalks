@@ -9,28 +9,6 @@ body
     background: #2b3e50;
 }
 
-.reviews
-{
-    margin-right: 11%;
-}
-
-.nav-footer
-{
-    margin-left: 30%;
-}
-
-.nav-footer > li
-{
-    margin-left: 1%;
-}
-
-address
-{
-    font-size: 1em;
-}
-
-/*color changes here */
-
 .navbar
 {
     margin-bottom: 0;
@@ -38,12 +16,6 @@ address
     border: none;
     border-radius: 0;
 }
-
-.scroll
-{
-    background: rgba(0, 188, 140, .60);
-}
-
 
 blockquote
 {
@@ -94,6 +66,32 @@ blockquote cite:before
     content: '\2014 \2009';
 }
 
+.reviews
+{
+    margin-right: 11%;
+}
+
+.nav-footer
+{
+    margin-left: 30%;
+}
+
+.nav-footer > li
+{
+    margin-left: 1%;
+}
+
+address
+{
+    font-size: 1em;
+}
+
+/*color changes here */
+
+.scroll
+{
+    background: rgba(0, 188, 140, .60);
+}
 
 .partition
 {
@@ -105,7 +103,7 @@ blockquote cite:before
 
 .partition.main
 {
-    height: 1000px;
+    height: 62.5em;
     margin-top: 5%;
 }
 
@@ -136,8 +134,7 @@ blockquote cite:before
 {
     font-size: 1.8em;
 
-    overflow: scroll;
-    height: 790px;
+    height: 26.375em;
     width: 90%;
     margin-right: auto;
     margin-left: auto;
@@ -153,28 +150,19 @@ blockquote cite:before
 .square-index
 {
     font-size: 1.8em;
-    height: 28.125em;
-    max-height: 600px;
-    overflow: scroll;
+    height: 18.125em;
 
     margin-bottom: 15%;
-    padding: 15px;
+    padding: .90em;
 
     color: #777;
-    border-radius: 25px;
+    border-radius: 1.5625em;
     background: rgba(255, 255, 255, .99);
 }
 
 .square-index:first-child
 {
-    margin-left: 5%;
-}
-
-
-
-.square-index:last-child
-{
-    margin-right: 5%;
+    height: 30em;
 }
 
 .jumbotron.no-border-radius
@@ -211,7 +199,7 @@ a:hover
 
 .smally
 {
-    font-size: 18px;
+    font-size: .5em;
     color: white;
 }
 
