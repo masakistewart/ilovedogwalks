@@ -265,11 +265,17 @@ iframe
 }
 
 @media only screen and (max-device-width: 480px) {
-
+    body {
+        margin-top: 6.25em;
+    }
 	.container-fluid {
 		width: 100%;
 		margin: 0;
 	}
+
+    .navbar-nav {
+        display: inline-block;
+    }
 
     iframe {
         width: 80%;
