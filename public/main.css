@@ -26,28 +26,11 @@ blockquote
 
     position: relative;
 
-    width: 31.25em;
+    width: 22.25em;
     margin: 1% auto;
     padding: .35em 2.5em;
 
     color: white;
-}
-
-blockquote:before
-{
-    font-size: 5em;
-
-    position: absolute;
-    top: -1.25em;
-    left: -1.25em;
-
-    display: block;
-
-    padding-left: 6.25em;
-
-    content: '\201C';
-
-    color: #00bc8c;
 }
 
 blockquote cite
@@ -76,12 +59,17 @@ blockquote cite:before
 {
     font-size: 1.8em;
 
-    height: 26.375em;
+    height: 25.375em;
     width: 90%;
     margin-right: auto;
     margin-left: auto;
 
     background: #2b3e50;
+}
+
+.thumbnail:first-child
+{
+    height: 30em;
 }
 
 #services-offered
@@ -239,7 +227,8 @@ img.thumbnail-img
 
 iframe
 {
-    margin-top: 5%;
+    width: 24em;
+    height: 24em;
 }
 
 .left-side
@@ -274,7 +263,7 @@ iframe
     width: 150px;
 }
 
-@media only screen and (max-device-width: 480px) {
+/*@media only screen and (max-device-width: 480px) {
 
 	.container-fluid {
 		width: 100%;
@@ -282,7 +271,7 @@ iframe
 	}
 
 	.navbar {
-		height: 150px;
+		height: 9.375em ;
         width: 100%;
 	}
 
@@ -300,7 +289,7 @@ iframe
     display: none;
 }
 
-	/*.square-index {
+	.square-index {
 		border-radius: 25px;
 		padding: 15px;
 		font-size: 1.8em;
@@ -308,7 +297,7 @@ iframe
 		background: rgba(255, 255, 255, .99);
 		width: 85%;
 		margin-bottom: 15%;
-	}*/
+	}
 
 	img.thumbnail-img {
 		height: 600px;
@@ -345,4 +334,4 @@ iframe
 		margin: 0;
 		padding: 0;
 	}
-}
+}*/
