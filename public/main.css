@@ -327,7 +327,10 @@ iframe
 		margin: 1% auto;
 		overflow: hidden;
 	}
-
+    blockquote
+    {
+        width: 25.5em;
+    }
 	.btn {
 		font-size: 1.5em;
 		padding: 1%;
