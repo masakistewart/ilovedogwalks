@@ -272,6 +272,10 @@ iframe
     iframe {
         width: 80%;
     }
+
+    .row {
+        margin-top: 1.925em;
+    }
     blockquote {
         display: none;
     }
