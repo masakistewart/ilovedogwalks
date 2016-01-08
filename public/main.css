@@ -170,6 +170,8 @@ blockquote cite:before
     margin-left: 5%;
 }
 
+
+
 .square-index:last-child
 {
     margin-right: 5%;
@@ -305,6 +307,11 @@ iframe
 		margin-top: 150px;
         margin-bottom: 150px;
 	}
+
+    blockquote:before
+{
+    content: none;
+}
 
 	/*.square-index {
 		border-radius: 25px;
