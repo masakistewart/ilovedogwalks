@@ -266,7 +266,7 @@ iframe
 
 @media only screen and (max-device-width: 480px) {
     body {
-        margin-top: 7em;
+        margin-top: 7.5em;
     }
 	.container-fluid {
 		width: 100%;
