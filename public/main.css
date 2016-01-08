@@ -284,18 +284,12 @@ iframe
         display: none;
     }
 
-
-	img.thumbnail-img {
-		height: 600px;
-		width: 100;
-	}
-
-	/*.thumbnail {
+	.thumbnail {
 		width: 80%;
-		height: 600px;
+		height: 37.5em;
 		margin: 1% auto;
 		overflow: hidden;
-	}*/
+	}
     blockquote
     {
         width: 25.5em;
