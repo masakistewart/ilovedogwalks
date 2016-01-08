@@ -59,7 +59,7 @@ blockquote cite:before
 {
     font-size: 1.8em;
 
-    height: 28.375em;
+    height: 29.375em;
     width: 90%;
     margin-right: auto;
     margin-left: auto;
@@ -291,6 +291,7 @@ iframe
 		margin: 1% auto;
 		overflow: hidden;
 	}
+
     blockquote
     {
         width: 25.5em;
