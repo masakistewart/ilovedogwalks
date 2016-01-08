@@ -304,13 +304,14 @@ iframe
 	}
 
 	body {
+        width: 30em;
 		margin-top: 150px;
         margin-bottom: 150px;
 	}
     blockquote {
         display: none;
     }
-    
+
     blockquote:before
 {
     display: none;
