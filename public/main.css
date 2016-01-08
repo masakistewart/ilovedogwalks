@@ -310,7 +310,7 @@ iframe
 
     blockquote:before
 {
-    content: none;
+    display: none;
 }
 
 	/*.square-index {
