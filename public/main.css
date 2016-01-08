@@ -66,6 +66,42 @@ blockquote cite:before
     content: '\2014 \2009';
 }
 
+.row
+{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.thumbnail
+{
+    font-size: 1.8em;
+
+    height: 26.375em;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+
+    background: #2b3e50;
+}
+
+#services-offered
+{
+    font-size: 2em;
+}
+
+.square-index
+{
+    font-size: 1.8em;
+    height: 18.125em;
+
+    margin-bottom: 15%;
+    padding: .90em;
+
+    color: #777;
+    border-radius: 1.5625em;
+    background: rgba(255, 255, 255, .99);
+}
+
 .reviews
 {
     margin-right: 11%;
@@ -122,47 +158,6 @@ address
 
     border-radius: 0;
     background: #2b3e50;
-}
-
-.row
-{
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.thumbnail
-{
-    font-size: 1.8em;
-
-    height: 26.375em;
-    width: 90%;
-    margin-right: auto;
-    margin-left: auto;
-
-    background: #2b3e50;
-}
-
-#services-offered
-{
-    font-size: 2em;
-}
-
-.square-index
-{
-    font-size: 1.8em;
-    height: 18.125em;
-
-    margin-bottom: 15%;
-    padding: .90em;
-
-    color: #777;
-    border-radius: 1.5625em;
-    background: rgba(255, 255, 255, .99);
-}
-
-.square-index:first-child
-{
-    height: 30em;
 }
 
 .jumbotron.no-border-radius
