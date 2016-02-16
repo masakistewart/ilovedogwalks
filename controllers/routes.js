@@ -72,7 +72,6 @@ var transporter = nodemailer.createTransport(
       'My-Awesome-Header': '123'
   }
 });
-  console.log(req.body.email)
 	transporter.sendMail({
 	    to: 'ilovedogwalks@hotmail.com',
 	    subject: 'Work Email!!!',
